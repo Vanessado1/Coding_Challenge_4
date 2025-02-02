@@ -46,3 +46,9 @@ let products = ["Laptop", "Mouse", "Keyboard"]; //Declared Product array
 for (let product of products) {
     console.log(`Products: ${product}`);
 } // Console logs products listed 
+
+// Task 7: forEach()Method
+let orders = [101, 102, 103]; // Declared Orders array
+orders.forEach(element => {
+    console.log(`Orders: ${orders}`)
+}); // Console logs each order
