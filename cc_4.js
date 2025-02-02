@@ -52,3 +52,12 @@ let orders = [101, 102, 103]; // Declared Orders array
 orders.forEach(element => {
     console.log(`Orders: ${orders}`)
 }); // Console logs each order
+
+// Task 8: Function Declaration
+function calculateTax(price , taxRate) {
+    return price * taxRate;
+} // function used to calculate the return of taxes 
+let price = 268.99; // Declared a price 
+let taxRate = 0.15; // Declared a tax rate 
+let taxAmount = calculateTax(price, taxRate); // Declared the tax amount 
+console.log(`Tax Amount: $${taxAmount}`); // Console log the return amount 
