@@ -61,3 +61,13 @@ let price = 268.99; // Declared a price
 let taxRate = 0.15; // Declared a tax rate 
 let taxAmount = calculateTax(price, taxRate); // Declared the tax amount 
 console.log(`Tax Amount: $${taxAmount}`); // Console log the return amount 
+
+// Task 9: Function Expressions
+function applyDiscount(purchase, discountRate) {
+    return purchase * discountRate;
+} // Apply Discount function to calculate the discounted amount 
+let purchase = 56.23; // Declared purchase amount
+let discountRate = 0.05; // Declared discount rate 
+let discountedPurchases = applyDiscount(purchase, discountRate); // Declared the discounted amount 
+console.log(`Discounted Amount: $${discountedPurchases}`); // Console log the discounted amount 
+
