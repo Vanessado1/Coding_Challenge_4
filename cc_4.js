@@ -40,3 +40,9 @@ for (let key in employee) {
         console.log(`${key}: ${employee[key]}`);
     }
 }// Shows employee information 
+
+// Task 6- For...Of Loop
+let products = ["Laptop", "Mouse", "Keyboard"]; //Declared Product array 
+for (let product of products) {
+    console.log(`Products: ${product}`);
+} // Console logs products listed 
