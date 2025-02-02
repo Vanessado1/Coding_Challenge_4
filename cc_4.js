@@ -14,3 +14,11 @@ for (let index = 0; index < sales.length; index++) {
     totalSales += sales[index];
 } // For loop used to add all sales together 
 console.log(`Total Sales: $${totalSales}`); 
+
+// Task 3- While Loop
+let stock = 10; // Declared stock
+while (stock > 0) {
+    stock--;
+    console.log(`Stock Amount: $${stock}`);
+} // While loop used to display stock amount getting to zero
+ 
