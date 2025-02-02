@@ -23,8 +23,20 @@ while (stock > 0) {
 } // While loop used to display stock amount getting to zero
  
 // Task 4- Do... While Loop
-let responses = 0;
+let responses = 0; // Declare responses 
 do {
     console.log(`Responses: ${responses}`)
     responses++;
-} while (responses <= 3);
+} while (responses <= 3); // Counts responses all the way to 3 
+
+// Task 5- For...In Loop
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+}; //Declares employee information array 
+for (let key in employee) {
+    if (employee.hasOwnProperty(key)) {
+        console.log(`${key}: ${employee[key]}`);
+    }
+}// Shows employee information 
