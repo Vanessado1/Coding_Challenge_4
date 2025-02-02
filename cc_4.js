@@ -71,3 +71,10 @@ let discountRate = 0.05; // Declared discount rate
 let discountedPurchases = applyDiscount(purchase, discountRate); // Declared the discounted amount 
 console.log(`Discounted Amount: $${discountedPurchases}`); // Console log the discounted amount 
 
+// Task 10: Arrow Functions 
+const calculatePoints = (purchaseAmount) => {
+    return (purchaseAmount / 10);
+} // Created a calculating points function based off the purchase amount
+let points = calculatePoints(120); // Declared points 
+console.log(`Point Earned: ${points}`); // Console log the amounts of points earned
+
