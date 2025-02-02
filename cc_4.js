@@ -22,3 +22,9 @@ while (stock > 0) {
     console.log(`Stock Amount: $${stock}`);
 } // While loop used to display stock amount getting to zero
  
+// Task 4- Do... While Loop
+let responses = 0;
+do {
+    console.log(`Responses: ${responses}`)
+    responses++;
+} while (responses <= 3);
